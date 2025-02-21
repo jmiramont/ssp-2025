@@ -12,7 +12,6 @@ PyYAML = "^6.0"
 pesq = "^0.0.4"
 pystoi = "^0.4.1"
 oct2py = "^5.6.0"
-spatstat-interface = "^1.0.1"
 mcsm-benchs = "^0.1.1"
 librosa = "^0.10.2.post1"
 gudhi = "^3.10.1"
@@ -25,6 +24,7 @@ nbformat = "^5.9.2"
 optional = true
 
 [tool.poetry.group.rtools.dependencies]
+spatstat-interface = "^1.0.1"
 rpy2 = "3.5.2"
 
 # Install Docs dependencies "poetry install --with docs"
