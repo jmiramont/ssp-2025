@@ -7,7 +7,7 @@ Author: Juan Manuel Miramont
 """
 if __name__ == "__main__":
     # import importlib
-    from src.methods import *
+    # from src.methods import *
     from mcsm_benchs.benchmark_utils import MethodTemplate as MethodTemplate
     # import inspect
 
