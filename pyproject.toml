@@ -12,7 +12,6 @@ PyYAML = "^6.0"
 pesq = "^0.0.4"
 pystoi = "^0.4.1"
 oct2py = "^5.6.0"
-rpy2 = "3.5.2"
 spatstat-interface = "^1.0.1"
 mcsm-benchs = "^0.1.1"
 librosa = "^0.10.2.post1"
@@ -20,6 +19,13 @@ gudhi = "^3.10.1"
 # matlabengine = "9.13.6" # Check this is correct for your Matlab installation.
 numba = "^0.61.0"
 nbformat = "^5.9.2"
+
+# Install Docs dependencies "poetry install --with rtools"
+[tool.poetry.group.rtools]
+optional = true
+
+[tool.poetry.group.rtools.dependencies]
+rpy2 = "3.5.2"
 
 # Install Docs dependencies "poetry install --with docs"
 [tool.poetry.group.docs]
